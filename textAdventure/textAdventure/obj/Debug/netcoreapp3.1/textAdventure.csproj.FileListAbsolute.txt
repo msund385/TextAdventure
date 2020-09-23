@@ -1,0 +1,15 @@
+C:\Users\Michael\Desktop\textAdventure\textAdventure\textAdventure\obj\Debug\netcoreapp3.1\textAdventure.csprojAssemblyReference.cache
+C:\Users\Michael\Desktop\textAdventure\textAdventure\textAdventure\obj\Debug\netcoreapp3.1\textAdventure.AssemblyInfoInputs.cache
+C:\Users\Michael\Desktop\textAdventure\textAdventure\textAdventure\obj\Debug\netcoreapp3.1\textAdventure.AssemblyInfo.cs
+C:\Users\Michael\Desktop\textAdventure\textAdventure\textAdventure\bin\Debug\netcoreapp3.1\textAdventure.exe
+C:\Users\Michael\Desktop\textAdventure\textAdventure\textAdventure\bin\Debug\netcoreapp3.1\textAdventure.deps.json
+C:\Users\Michael\Desktop\textAdventure\textAdventure\textAdventure\bin\Debug\netcoreapp3.1\textAdventure.runtimeconfig.json
+C:\Users\Michael\Desktop\textAdventure\textAdventure\textAdventure\bin\Debug\netcoreapp3.1\textAdventure.runtimeconfig.dev.json
+C:\Users\Michael\Desktop\textAdventure\textAdventure\textAdventure\bin\Debug\netcoreapp3.1\textAdventure.dll
+C:\Users\Michael\Desktop\textAdventure\textAdventure\textAdventure\bin\Debug\netcoreapp3.1\textAdventure.pdb
+C:\Users\Michael\Desktop\textAdventure\textAdventure\textAdventure\obj\Debug\netcoreapp3.1\textAdventure.dll
+C:\Users\Michael\Desktop\textAdventure\textAdventure\textAdventure\obj\Debug\netcoreapp3.1\textAdventure.pdb
+C:\Users\Michael\Desktop\textAdventure\textAdventure\textAdventure\obj\Debug\netcoreapp3.1\textAdventure.genruntimeconfig.cache
+C:\Users\Michael\Desktop\textAdventure\textAdventure\textAdventure\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Michael\Desktop\textAdventure\textAdventure\textAdventure\obj\Debug\netcoreapp3.1\textAdventure.csproj.CoreCompileInputs.cache
+C:\Users\Michael\Desktop\textAdventure\textAdventure\textAdventure\obj\Debug\netcoreapp3.1\textAdventure.csproj.CopyComplete
