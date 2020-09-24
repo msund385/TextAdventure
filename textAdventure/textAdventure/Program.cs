@@ -13,17 +13,20 @@ namespace textAdventure
 {
     class Program
     {
+        public static string Pick { get; set; } 
+        public static string Friend { get; set; }
         static void Main(string[] args)
         {
             Console.WriteLine("Hi, welcome to your text adventure,choose your fate");
+            Health.Start();
             Console.WriteLine("What is the name of our courageous hero?");
             string hero = Console.ReadLine(); //stores user input
             Console.WriteLine("What is the name of your brave friend");
-            string friend = Console.ReadLine(); //stores user input
+            Friend = Console.ReadLine(); //stores user input
             Console.WriteLine("What is your dazzling magic?");
             string magic = Console.ReadLine(); //stores user input
             Console.WriteLine($"Welcome to the land of Cheyenia, where {hero} lives,breathes and");
-            Console.WriteLine($"survives with his pal {friend}.You must use your power of {magic}");
+            Console.WriteLine($"survives with his pal {Friend}.You must use your power of {magic}");
             Console.WriteLine("to save the citizens from destruction. May the swartz be with you!!!");
             
            
@@ -48,11 +51,11 @@ namespace textAdventure
                     ? colorTwo
                     : colorOne;
                 Console.SetCursorPosition(0, cursorTop);
-                Console.WriteLine("Do you go right or left,\n enter 1 for right or 2 for left!!!!");
-                var pick = Console.ReadLine();//assigns user input to a variable
+                Console.WriteLine("Do you go right or left,\n enter: 1.right or 2.left!!!!");
+                 Pick = Console.ReadLine();//assigns user input to a variable
                 
                 int x = 0;
-                Int32.TryParse(pick, out x);//changes string to int
+                Int32.TryParse(Pick, out x);//changes string to int
                
                 if (x == 1)//takes answer 1 or 2 and supplies corresponding answer
                 {
@@ -70,6 +73,7 @@ namespace textAdventure
 
 
         }
+       
 
 
     }

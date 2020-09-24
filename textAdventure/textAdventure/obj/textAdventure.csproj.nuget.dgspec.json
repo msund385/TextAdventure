@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Michael\\Desktop\\textAdventure\\textAdventure\\textAdventure\\textAdventure.csproj": {}
+    "C:\\Users\\Michael\\Desktop\\TextAdventure\\TextAdventure\\textAdventure\\TextAdventure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Michael\\Desktop\\textAdventure\\textAdventure\\textAdventure\\textAdventure.csproj": {
+    "C:\\Users\\Michael\\Desktop\\TextAdventure\\TextAdventure\\textAdventure\\TextAdventure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Michael\\Desktop\\textAdventure\\textAdventure\\textAdventure\\textAdventure.csproj",
-        "projectName": "textAdventure",
-        "projectPath": "C:\\Users\\Michael\\Desktop\\textAdventure\\textAdventure\\textAdventure\\textAdventure.csproj",
+        "projectUniqueName": "C:\\Users\\Michael\\Desktop\\TextAdventure\\TextAdventure\\textAdventure\\TextAdventure.csproj",
+        "projectName": "TextAdventure",
+        "projectPath": "C:\\Users\\Michael\\Desktop\\TextAdventure\\TextAdventure\\textAdventure\\TextAdventure.csproj",
         "packagesPath": "C:\\Users\\Michael\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Michael\\Desktop\\textAdventure\\textAdventure\\textAdventure\\obj\\",
+        "outputPath": "C:\\Users\\Michael\\Desktop\\TextAdventure\\TextAdventure\\textAdventure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Michael\\AppData\\Roaming\\NuGet\\NuGet.Config",
