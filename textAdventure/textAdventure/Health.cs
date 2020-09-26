@@ -12,7 +12,7 @@ namespace textAdventure
         public static int x { get; set; } = 2; // property for variable int x
         public static void Start() //starts the health tracking
         {
-            if(x <= 2)
+            if(x >= 2)
             {
                 Console.WriteLine($"Your health is {x} hearts");
             }   
