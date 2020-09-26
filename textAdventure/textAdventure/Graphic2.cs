@@ -10,9 +10,9 @@ namespace TextAdventure
            
         public static void Image2()
         {
-            Console.ForegroundColor = ConsoleColor.White;
-            Console.BackgroundColor = ConsoleColor.DarkBlue;
-
+            Console.ForegroundColor = ConsoleColor.White;// changes foreground color to white
+            Console.BackgroundColor = ConsoleColor.DarkBlue;// changes background to ---->dark blue
+            // pixel art image for ending 2
             Console.WriteLine("**************************************************************************");
             Console.WriteLine("**************************************************************************");
             Console.WriteLine("*               *                                                         ");
