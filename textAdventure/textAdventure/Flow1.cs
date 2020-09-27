@@ -16,7 +16,7 @@ namespace textAdventure
         public static string Friend { get; set; }//property / Friend
         public static string Duck{ get; set; } //property creates Duck
         public static string Prize { get; set; } //property creates Prize
-
+       
         public static void Continue()
         {
             Console.ForegroundColor = ConsoleColor.Red;// changes console to red/cyan
@@ -135,32 +135,35 @@ namespace textAdventure
         Console.WriteLine($"Your dog's name is : {Duck} ");
         Console.WriteLine("Your dog leads you to a make shift shack in the distance.\nIt is cold and dark out here!!");
         Health.GainHealth();//increments health
-        Start();
-        Scene6();
+        Help.Savior();//calls savior method in Help class
+        Start();// calls start
+        Scene6();// calls scene 6
         
 
      }
-
+        
      public static void Scene5()
      {
         Console.WriteLine($"Your {Prize} is weighing you down, you stumble then take a seat next to an old oak tree,");
         Console.WriteLine($"you are feeling weak, you cant eat {Prize}, you pass out");
         Health.LoseHealth();// decrements health
-        Start();
-        Scene7();
+        Start();// calls start
+        Help.Savior();//calls method Savior in Help class
+        Scene7();// calls scene7
         
-     }
 
+     }
+       
      public static void Scene6()
      { 
          Console.ForegroundColor = ConsoleColor.Gray;// changes console to red/cyan
          Console.BackgroundColor = ConsoleColor.DarkRed;
          Health.End();// last readout of health score
          Console.WriteLine("You walk up , pull on the door, it opens....");
-        Console.WriteLine($"you and {Duck} walk in, sitting in the chair is {Flow1.Friend}");
-        Console.WriteLine($"{Flow1.Friend} leads you to safety, you win a cruise and vacation from the ruff life");
-        Graphic.Image();//calls image 1
-        System.Environment.Exit(0);//exits console app when you hit button
+         Console.WriteLine($"you and {Duck} walk in, sitting in the chair is {Flow1.Friend}");
+         Console.WriteLine($"{Flow1.Friend} leads you to safety, you win a cruise and vacation from the ruff life");
+         Graphic.Image();//calls image 1
+         System.Environment.Exit(0);//exits console app when you hit button
 
         }
 

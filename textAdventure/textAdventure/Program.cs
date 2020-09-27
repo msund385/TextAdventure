@@ -21,7 +21,8 @@ namespace textAdventure
             Graphic1.Image1(); // Opening Graphic
             Menu.Menu1();
             Flow1.Continue();
-
+             
+            
         }
       
 
