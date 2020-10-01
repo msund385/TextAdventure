@@ -9,7 +9,7 @@ namespace textAdventure
 {
     public class Health
     {
-        public static int x { get; set; } = 2; // property for variable int x
+        public static int x { get; set; } = 5; // property for variable int x
         public static void Start() //starts the health tracking
         {
             if(x >= 2)
@@ -28,7 +28,7 @@ namespace textAdventure
             {
                 Console.WriteLine($"Your health is {x} hearts!");
             }
-            else
+            if(x <= 0)
             {
                 Console.WriteLine("You Dead!!!!\n You ran out of steam,luckily your heirs collect the goods");
                 System.Environment.Exit(0);
@@ -52,10 +52,11 @@ namespace textAdventure
             if (x <= 0)
             {
                 Console.WriteLine("You Dead!!!!\n You ran out of steam,luckily your heirs collect the goods");
+                System.Environment.Exit(0);
             }
             else
             {
-                Console.WriteLine($"Your final health is {x} hearts");
+                Console.WriteLine($"Your health is {x} hearts");
             }
 
         }

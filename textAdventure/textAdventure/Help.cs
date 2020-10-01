@@ -8,10 +8,14 @@ namespace TextAdventure
     class Help : Flow1
     {
         
-        public string Pick2 { get; set; }// property creates Pick2
+         public static string Pick2 { get; set; }// property creates Pick2
+         public static int Index { get; set; }// property creates index
+         public static int Item { get; set; }// property creates item
        
         public static void Savior()
         {
+            Console.ForegroundColor = ConsoleColor.White;// changes console to red/cyan
+            Console.BackgroundColor = ConsoleColor.DarkMagenta;
             var random1 = new Random();// creates new variable 
                 
             var random = new Random();// creates new variable 
@@ -46,9 +50,9 @@ namespace TextAdventure
             characters.Add("Dory");
             characters.Add("Mickey Mouse");
             characters.Add("Dory");
-            int index = random.Next(characters.Count);//picks a random character from list
+             Index = random.Next(characters.Count);//picks a random character from list
             Console.WriteLine("Your hero has arrived:");
-            Console.WriteLine(characters[index]);//prints to console
+            Console.WriteLine(characters[Index]);//prints to console
 
             var items = new List<string>();// creates list items
             items.Add("Hand crank can opener");//Adds items to list
@@ -94,10 +98,13 @@ namespace TextAdventure
             items.Add("A car battery");
             items.Add("A pen & paper");
             items.Add("Your utility tool");
-            int item = random1.Next(items.Count);//picks a random item from list
+             Item = random1.Next(items.Count);//picks a random item from list
             Console.WriteLine("Your hero has brought you a gift:");
-            Console.WriteLine( items[item]);//prints to console
-
+            Console.WriteLine( items[Item]);//prints to console
+            Console.WriteLine($"You thank {characters[Index]} for the help and the gift of {items[Item]}!!!!");
+            Console.WriteLine($"{characters[Index]} gives you advice and heads on their way JOB DONE!!!!");
+            Myster.Mystery();
+            
 
 
 
