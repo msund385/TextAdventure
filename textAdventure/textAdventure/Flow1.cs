@@ -135,7 +135,9 @@ namespace textAdventure
             Console.WriteLine("It is cold and dark out here!!");
             Health.GainHealth();//increments health
             Health.End();
-            Help.Savior();//calls savior method in Help class
+            Scene6();//calls Scene6 method 
+
+         
            
 
         }
@@ -166,17 +168,32 @@ namespace textAdventure
             Console.WriteLine($"you and {Flow1.Duck} walk in, sitting in the chair is {Flow1.Friend}                ");
             Console.WriteLine($"{Flow1.Friend} leads you to safety, you win a cruise and vacation from the ruff life");
             Health.End();// Tracks health
-            Graphic.Image();//calls image 1
-            System.Environment.Exit(0);//exits console app when you hit button
-         }
+            Help.Savior();//calls method Savior in Help class
 
-
+        }
 
         public static void Scene7()
+        {
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.BackgroundColor = ConsoleColor.DarkRed;
+            Health.End();
+            Console.WriteLine($"You reach a clearing, {Flow1.Duck} is on a scent");
+            Console.WriteLine($"{Flow1.Duck} leads you out of the forest to a trail");
+            Console.WriteLine($"You follow the trail, as your walking you meet up with {Flow1.Friend}");
+            Console.WriteLine($"{Flow1.Friend} says they know the way home");
+            Console.WriteLine($"You follow {Flow1.Friend} and {Flow1.Duck} smells dinner and Home Sweet Home!!!!");
+            Console.ResetColor();
+            Graphic.Image();//calls image 1
+            System.Environment.Exit(0);//exits console app when you hit button
+
+        }
+
+        public static void Scene8()
         {
             
             Console.ForegroundColor = ConsoleColor.Gray;// changes console to red/cyan
             Console.BackgroundColor = ConsoleColor.DarkRed;
+            Health.End();
             Console.WriteLine($"You awaken from a tap on the shoulder, it's your buddy {Flow1.Friend}.              ");
             Console.WriteLine($"He gives you nourishment and helps you carry the gold and {Flow1.Prize}             ");
             Console.WriteLine($"you recover and with your share of Gold and {Flow1.Prize} you bought a BW3 franchise");

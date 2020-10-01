@@ -85,20 +85,25 @@
                 Console.WriteLine($" You take {mystery[Myst]}'s weapon!!!");
                 Console.WriteLine($"You now have a {weap[Monster]} ");
                 Console.WriteLine("You plan, but life has a habit of taking the wheel (-).");
-                Console.WriteLine($"Don't let  {weap[Monster]} take your wheel!!!");
+                Console.WriteLine($"Don't let  {mystery[Myst]} take your wheel!!!");
                 Health.LoseHealth();
                 Health.End();
-                Flow1.Scene7();
+                Flow1.Scene8();
              }
 
             if (d == 2)
-            {  Console.WriteLine($"You take off swiftly,{Flow1.Duck} is right behind you\nyou stumble and then regain your step, you continue to keep pace,");
-                Console.WriteLine($"{mystery[Myst]} can't keep up, you out pace {mystery[Myst]},\nyou and {Flow1.Duck} slide up against an embankment       ");
+            {  Console.WriteLine($"You take off swiftly,{Flow1.Duck} is right behind you, you stumble and then regain your step, you continue to keep pace,");
+                Console.WriteLine($"{mystery[Myst]} can't keep up, you out pace {mystery[Myst]},you and {Flow1.Duck} slide up against an embankment");
                 
-                Console.WriteLine($"You have made it through {Flow1.Hero}, Congrats!!!!We plan, but life has a way of taking the wheel(-)                   ");
+                Console.WriteLine($"You have made it through {Flow1.Hero}, Congrats!!!!");
+                Console.WriteLine("We plan, but life has a way of taking the wheel(-)");
+                Console.WriteLine($"Don't let {mystery.[Myst]} take the wheel from you!!!");
                 Health.GainHealth();
                 Health.Start();
-                Flow1.Scene6();
+                Flow1.Scene7();
+          
+
+               
             }
             else
             {

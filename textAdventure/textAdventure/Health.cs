@@ -9,7 +9,7 @@ namespace textAdventure
 {
     public class Health
     {
-        public static int x { get; set; } = 5; // property for variable int x
+        public static int x { get; set; } = 4; // property for variable int x
         public static void Start() //starts the health tracking
         {
             if(x >= 2)
