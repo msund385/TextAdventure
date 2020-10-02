@@ -32,7 +32,9 @@
             mystery.Add("Jigsaw");
             mystery.Add("Pennywise");
             mystery.Add("Norman Bates");
-             Myst = random.Next(mystery.Count);//picks a random item from list// craetes myst variable
+            int Myst = random.Next(mystery.Count);//picks a random item from list// craetes myst variable
+          
+           
 
             var weapons = new List<string>();//creates new list
             weapons.Add("Gun");              //adds to list
@@ -97,10 +99,11 @@
                 
                 Console.WriteLine($"You have made it through {Flow1.Hero}, Congrats!!!!");
                 Console.WriteLine("We plan, but life has a way of taking the wheel(-)");
-                Console.WriteLine($"Don't let {mystery.[Myst]} take the wheel from you!!!");
+                Console.WriteLine($"Don't let {mystery[Myst]}  take the wheel from you!!!");
                 Health.GainHealth();
                 Health.Start();
                 Flow1.Scene7();
+
           
 
                

@@ -50,6 +50,7 @@ namespace TextAdventure
             characters.Add("Dory");
             characters.Add("Mickey Mouse");
             characters.Add("Dory");
+            characters.Add("The KoolAid Man");
              Index = random.Next(characters.Count);//picks a random character from list
             Console.WriteLine("Your hero has arrived:");
             Console.WriteLine(characters[Index]);//prints to console
